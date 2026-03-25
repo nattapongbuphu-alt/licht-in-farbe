@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1128975638168211591}
   - component: {fileID: 7770347047851718555}
   - component: {fileID: 5200576599250930550}
+  - component: {fileID: 9150630464103058236}
   m_Layer: 0
   m_Name: Player_Green
   m_TagString: Untagged
@@ -105,6 +106,19 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!114 &9150630464103058236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 588934324168417720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe5f89aea4ac4b85b07de4b1e327e9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerCameraFollow
+  ShowTopMostFoldoutHeaderGroup: 1
 --- !u!1 &4365354931787131656
 GameObject:
   m_ObjectHideFlags: 0
